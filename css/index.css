@@ -2,10 +2,16 @@ body{
   padding-bottom: 2em;
 }
 
-.card-group>.card{
-  margin: .2em 0;
+.card{
+  margin: .4em 0;
 }
 
-#paineis-sobre{
-  margin-bottom: 1em;
+.jumbotron{
+  margin: .5em 0;
+}
+
+.titulo-depoimentos{
+  background-color: #0275D8;
+  padding: 1em .5em;
+  margin-bottom: 0;
 }
