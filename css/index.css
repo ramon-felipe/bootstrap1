@@ -1,5 +1,5 @@
 body{
-  padding-bottom: 2em;
+
 }
 
 .card{
@@ -15,3 +15,12 @@ body{
   padding: 1em .5em;
   margin-bottom: 0;
 }
+
+footer{
+  background-color: #333;
+  color: #fff;
+  padding: .5em;
+}
+  footer address{
+    margin: 0;
+  }
