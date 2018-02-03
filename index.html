@@ -11,6 +11,7 @@
   </head>
 
   <body>
+
     <header>
       <nav class="navbar navbar-light bg-light navbar-expand-md">
         <span class="navbar-brand">TopCasaFina</span>
@@ -28,47 +29,63 @@
           </ul>
         </div>
       </nav>
+
+      <div class="TopCasaFina-banner fluid">
+        <h1>TopCasaFina Arquitetura</h1>
+        <p>Projetando a casa dos sonhos desde 2000 A.C.</p>
+        <a class="btn btn-primary btn-lg" href="#contato">Contate-nos agora</a>
+      </div>
+
     </header>
 
     <main class="container">
+
       <section id="sobre-nos">
         <h2>Sobre Nós</h2>
-        <div id="paineis-sobre">
-          <img src="img/empresa.jpg" class="img-fluid card-img-top">
 
-          <div class="card border-dark">
-            <h6 class="card-header" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
-              Desde 1935
-            </h6>
-            <div class="collapse" id="collapse-1" data-parent="#paineis-sobre">
-              <div class="card-body">
-                <p class="card-text">Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.</p>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-md-7 col-lg-8">
+            <img src="img/empresa.jpg" class="img-fluid card-img-top">
           </div>
 
-          <div class="card border-dark">
-            <h6 class="card-header" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-              Preços acessíveis
-            </h6>
-            <div class="collapse" id="collapse-2" data-parent="#paineis-sobre">
-              <div class="card-body">
-                <p class="card-text">Preços a partir de R$ 100.000,00.</p>
+          <div class="col-md-5 col-lg-4">
+            <div id="paineis-sobre">
+              <div class="card border-dark">
+                <h6 class="card-header p-md-2 p-lg-3" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                  Desde 1935
+                </h6>
+                <div class="fixCollapse collapse" id="collapse-1" data-parent="#paineis-sobre">
+                  <div class="card-body p-md-3 p-lg-2 p-xl-4">
+                    <p class="card-text">Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="card border-dark">
-            <h6 class="card-header" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-              Alegria para colaborar com um mundo mais bonito
-            </h6>
-            <div class="collapse" id="collapse-3" data-parent="#paineis-sobre">
-              <div class="card-body">
-                <p class="card-text">Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+              <div class="card border-dark">
+                <h6 class="card-header p-md-2 p-lg-3" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                  Preços acessíveis
+                </h6>
+                <div class="fixCollapse collapse" id="collapse-2" data-parent="#paineis-sobre">
+                  <div class="card-body p-md-3 p-lg-2 p-xl-4">
+                    <p class="card-text">Preços a partir de R$ 100.000,00.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card border-dark">
+                <h6 class="card-header p-md-2 p-lg-3" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                  Alegria para colaborar com um mundo mais bonito
+                </h6>
+                <div class="fixCollapse collapse" id="collapse-3" data-parent="#paineis-sobre">
+                  <div class="card-body p-md-3 p-lg-2 p-xl-4">
+                    <p class="card-text">Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </section>
 
       <div class="jumbotron text-center">
@@ -76,65 +93,76 @@
           <p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
       </div>
 
-
       <!------------------->
       <!--NOSSOS PROJETOS-->
       <!------------------->
-
       <section id="nossos-projetos">
         <h2>Nossos Projetos</h2>
-        <figure class="card">
-          <img class="card-img-top img-thumbnail" src="img/projetos/casa-castelo.png" class="img-fluid" alt="foto casa castelo">
-          <div class="card-body">
-            <figcaption>
-              <h4 class="card-title">Casa Castelo</h4>
-            </figcaption>
-            <p class="card-text">A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
-          </div>
-        </figure>
 
-        <figure class="card">
-          <img class="card-img-top img-thumbnail" src="img/projetos/casa-lago.png" class="img-fluid" alt="foto casa do lago">
-          <div class="card-body">
-            <figcaption>
-              <h4 class="card-title">Casa Lago</h4>
-            </figcaption>
-            <p class="card-text">A Casa do Lado foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <figure class="card">
+              <img class="card-img-top img-thumbnail" src="img/projetos/casa-castelo.png" class="img-fluid" alt="foto casa castelo">
+              <div class="card-body">
+                <figcaption>
+                  <h4 class="card-title">Casa Castelo</h4>
+                </figcaption>
+                <p class="card-text">A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+              </div>
+            </figure>
           </div>
-        </figure>
+          <div class="col-md-6 col-lg-4">
+            <figure class="card">
+              <img class="card-img-top img-thumbnail" src="img/projetos/casa-lago.png" class="img-fluid" alt="foto casa do lago">
+              <div class="card-body">
+                <figcaption>
+                  <h4 class="card-title">Casa Lago</h4>
+                </figcaption>
+                <p class="card-text">A Casa do Lado foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
+              </div>
+            </figure>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <figure class="card">
+              <img class="card-img-top img-thumbnail" src="img/projetos/mercado-marapira.png" class="img-fluid" alt="foto mercado marapira">
+              <div class="card-body">
+                <figcaption>
+                  <h4 class="card-title">Mercado Marapira</h4>
+                </figcaption>
+                <p class="card-text">O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
+              </div>
+            </figure>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <figure class="card">
+              <img class="card-img-top img-thumbnail" src="img/projetos/palacio-dionisio.png" class="img-fluid" alt="foto palácio Dionísio">
+              <div class="card-body">
+                <figcaption>
+                  <h4 class="card-title">Palácio Dionísio</h4>
+                </figcaption>
+                <p class="card-text">O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
+              </div>
+            </figure>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <figure class="card">
+              <img class="card-img-top img-thumbnail" src="img/projetos/residencia-ludi.png" class="img-fluid" alt="foto residência Ludi">
+              <div class="card-body">
+                <figcaption>
+                  <h4 class="card-title">Residência Ludi</h4>
+                </figcaption>
+                <p class="card-text">A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
+              </div>
+            </figure>
+          </div>
 
-        <figure class="card">
-          <img class="card-img-top img-thumbnail" src="img/projetos/mercado-marapira.png" class="img-fluid" alt="foto mercado marapira">
-          <div class="card-body">
-            <figcaption>
-              <h4 class="card-title">Mercado Marapira</h4>
-            </figcaption>
-            <p class="card-text">O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
-          </div>
-        </figure>
+        </div>
 
-        <figure class="card">
-          <img class="card-img-top img-thumbnail" src="img/projetos/palacio-dionisio.png" class="img-fluid" alt="foto palácio Dionísio">
-          <div class="card-body">
-            <figcaption>
-              <h4 class="card-title">Palácio Dionísio</h4>
-            </figcaption>
-            <p class="card-text">O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
-          </div>
-        </figure>
-
-        <figure class="card">
-          <img class="card-img-top img-thumbnail" src="img/projetos/residencia-ludi.png" class="img-fluid" alt="foto residência Ludi">
-          <div class="card-body">
-            <figcaption>
-              <h4 class="card-title">Residência Ludi</h4>
-            </figcaption>
-            <p class="card-text">A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
-          </div>
-        </figure>
       </section>
 
+      <!-------------------------->
       <!--DEPOIMENTO DE CLIENTES-->
+      <!-------------------------->
       <section id="depoimentos">
         <h5 class="titulo-depoimentos text-white">Depoimentos de Clientes</h5>
 
@@ -180,81 +208,87 @@
         </div>
       </section>
 
-      <!----------------------->
-      <!--VIDEO INSTITUCIONAL-->
-      <!----------------------->
-
-      <section id="video">
-        <h2>Vídeo Institucional</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8Dzdgzxid_k" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <!----------------------->
+          <!--VIDEO INSTITUCIONAL-->
+          <!----------------------->
+          <section id="video">
+            <h2>Vídeo Institucional</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8Dzdgzxid_k" allowfullscreen></iframe>
+            </div>
+          </section>
         </div>
-      </section>
+          <!----------------------->
+          <!--CONTATO-->
+          <!----------------------->
+        <div class="col-md-6 col-lg-6">
+          <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco</p>
 
-      <section id="contato">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco</p>
-
-        <form>
-          <div class="form-row">
-            <div class="form-group col-md-5 col-lg-4">
-              <label for="nome">Nome:</label>
-              <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome">
-            </div>
-
-            <div class="form-group col-md-7 col-lg-8">
-              <label for="sobrenome">Sobrenome:</label>
-              <input type="text" name="nome" id="sobrenome" class="form-control" placeholder="Digite seu sobrenome">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group col-md-6 col-lg-5">
-              <label for="email">E-mail:</label>
-              <div class="input-group mb-2">
-                <div class="input-group-prepend">
-                  <div class="input-group-text">@</div>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-5 col-lg-4">
+                  <label for="nome">Nome:</label>
+                  <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome">
                 </div>
-                <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail">
-            </div>
-            </div>
-          </div>
 
-          <div class="form-row">
-            <div class="form-group col-md-5 col-lg-2">
-              <div class="form-check">
-                <input type="radio" name="rdopf" id="rdopf" class="form-check-input" value="pf" checked>
-                <label for="rdopf" class="form-check-control">Pessoa física</label>
+                <div class="form-group col-md-7 col-lg-8">
+                  <label for="sobrenome">Sobrenome:</label>
+                  <input type="text" name="nome" id="sobrenome" class="form-control" placeholder="Digite seu sobrenome">
+                </div>
               </div>
-              <div class="form-check">
-                <input type="radio" name="rdopj" id="rdopj" class="form-check-input" value="pj">
-                <label for="rdopj" class="form-check-control">Pessoa jurídica</label>
+
+              <div class="form-row">
+                <div class="form-group col-md-6 col-lg-5">
+                  <label for="email">E-mail:</label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">@</div>
+                    </div>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail">
+                </div>
+                </div>
               </div>
-            </div>
 
-            <div class="form-group col-md-7 col-lg-4">
-              <label for="select1">Opção:</label>
-              <select id="select1" class="form-control">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-            </div>
-          </div>
+              <div class="form-row">
+                <div class="form-group col-md-5 col-lg-6">
+                  <div class="form-check">
+                    <input type="radio" name="rdopf" id="rdopf" class="form-check-input" value="pf" checked>
+                    <label for="rdopf" class="form-check-control">Pessoa física</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" name="rdopj" id="rdopj" class="form-check-input" value="pj">
+                    <label for="rdopj" class="form-check-control">Pessoa jurídica</label>
+                  </div>
+                </div>
 
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
-          </div>
+                <div class="form-group col-md-7 col-lg-6">
+                  <label for="select1">Opção:</label>
+                  <select id="select1" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+              </div>
 
-        </form>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+              </div>
 
-      </section>
+            </form>
+
+          </section>
+        </div>
 
     </main>
 
-    <footer class="container">
+    <footer>
       <address>
-        <strong>TopCasaFina arquitetura</strong><br>
+        <strong>TopCasaFina Arquitetura</strong><br>
         Rua Vergueiro, 3185, Vila Mariana<br>
         São Paulo, SP<br>
         Tel.: (11) 5571-2751 ou 5083-3884<br>
@@ -264,5 +298,6 @@
 
     <script src="js/lib/jquery/jquery-3.3.1.js"></script>
     <script src="js/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </htm>

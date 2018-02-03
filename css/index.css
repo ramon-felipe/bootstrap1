@@ -1,6 +1,37 @@
+html{
+    height: 100%;
+}
+
 body{
   min-width: 250px;
+  height: 100%;
 }
+
+header{
+  background-image: url("../img/castelo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin-bottom: 1em;
+  position: relative;
+  min-height: 430px;
+}
+.navbar{
+  z-index: 1;
+}
+
+.TopCasaFina-banner{
+  color: #FFF;
+  background-color: rgba(0, 0, 0, .6);
+  margin: 2em;
+  padding: .6em;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+}
+  .TopCasaFina-banner p{
+    margin-bottom: .2rem;
+  }
 
 .card{
   margin: .4em 0;
@@ -23,8 +54,19 @@ section{
 footer{
   background-color: #333;
   color: #fff;
-  padding: .5em;
+  padding: 1em;
+  padding-bottom: 2em;
 }
   footer address{
     margin: 0;
   }
+
+
+@media screen and (min-width: 768px) {
+  #paineis-sobre .card{
+    margin-top: 0;
+  }
+  /*.card-header, .card-body{
+    padding: .6em;
+  }*/
+}
